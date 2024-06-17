@@ -1,0 +1,6 @@
+numpy==2.0.0
+pandas==2.2.2
+yfinance==0.2.40
+pillow==10.3.0
+matplotlib==3.9.0
+fastapi==0.111.0

@@ -102,7 +102,7 @@ def get_companydata(ticker: str, column: str):
     ticker = ticker.upper().strip()
     column = column.capitalize().strip()
     companydata = yf.Ticker(ticker)
-    hist = companydata.history(period="12mo")
+    hist = companydata.history(period="1y")
     print(hist)
     
     return hist[column]
